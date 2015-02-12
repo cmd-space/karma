@@ -48,6 +48,13 @@ table {
 	border-spacing: 0;
 }
 /* Navigation Section */
+a {
+	text-decoration: none;
+	color: #838994;
+}
+a:hover {
+	color: black;
+}
 .top-navigation {
 	background-color: #fff;
 }
@@ -65,12 +72,20 @@ table {
 .links > li {
 	display: inline-block;
 	float: left;
-	margin-left: .5em;
+	margin-left: 1em;
 	font-family: 'Roboto', sans-serif; 
 	font-size: 16px; 
 	color: #838994; 
 	letter-spacing: 0.03em;
+	cursor: auto;
 }
 .links {
 	float: right;
+}
+html {
+	-webkit-font-smoothing: antialiased;
+}
+.top-navigation .links > .active {
+	color: #4c5058;
+	font-weight: 600;
 }
