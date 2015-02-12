@@ -47,16 +47,12 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-ul.nav {
-	float: right;
+/* Navigation Section */
+.top-navigation {
+	background-color: #fff;
 }
-li.right-nav {
-	display: inline;
-	float: left;
-	padding: 1em;
-}
-li.left-nav {
-	padding-top: auto;
-	padding-bottom: auto;
-	padding-right: 30%;
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
 }
