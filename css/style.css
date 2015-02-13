@@ -55,6 +55,9 @@ a {
 	color: #838994;
 }
 /* Can't get this to work! */
+body {
+	font-family: 'Roboto', sans-serif;;
+}
 .top-navigation .links li:hover {
 	cursor: pointer;
 	color: #333333;
@@ -67,6 +70,7 @@ a:hover {
 }
 .content {
 	padding: 0px 15px;
+	font-family: 'Roboto', sans-serif;
 }
 .top-navigation > .content {
 	width: 970px;
@@ -101,21 +105,16 @@ html {
 	background-image: url('../images/first-background.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	min-width: 100%;
-	min-height: 100%;
-	height: auto;
-	width: 100%;
-	position: absolute;
+	height: 45.938rem;
 	/*background-position: 0 bottom;
 	background-size: cover;
 	height: 45.938rem;*/
 }
-.h1-masthead {
-	font-family: 'Roboto', sans-serif;
+.background h1 {
 	text-align: center;
 	color: white;
 	font-size: 40px;
-	margin-top: 3em;
+	padding-top: 17.5rem;
 }
 .p-masthead {
 	font-family: 'Roboto', sans-serif;
@@ -148,4 +147,23 @@ html {
 .background-button:hover {
 	cursor: pointer;
 	background-color: blue;
+}
+.anchor {
+	margin-top: 6em;
+	text-align: center;
+}
+.anchor h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	font-weight: 300;
+}
+.anchor h3 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	font-weight: 300;
+}
+.anchor-pics li {
+	display: inline-block;
+	margin-left: 2.5em;
+	padding-top: 2em;
 }
