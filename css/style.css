@@ -54,6 +54,11 @@ a {
 	text-decoration: none;
 	color: #838994;
 }
+/* Can't get this to work! */
+.top-navigation .links li:hover {
+	cursor: pointer;
+	color: #333333;
+}
 a:hover {
 	color: black;
 }
@@ -74,12 +79,12 @@ a:hover {
 .links > li {
 	display: inline-block;
 	float: left;
-	margin-left: 1em;
+	margin-left: 2em;
 	font-family: 'Roboto', sans-serif; 
 	font-size: 16px; 
 	color: #838994; 
 	letter-spacing: 0.03em;
-	cursor: auto;
+	cursor: pointer;
 	margin-top: 2em;
 }
 .links {
@@ -90,5 +95,49 @@ html {
 }
 .top-navigation .links > .active {
 	color: #4c5058;
-	font-weight: 600;
+	font-weight: 500;
+}
+.background {
+	background-image: url('../images/first-background.jpg');
+	background-repeat: no-repeat;
+	min-width: 100%;
+	min-height: 100%;
+	height: auto;
+	width: 100%;
+	position: absolute;
+}
+.h1-masthead {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	margin-top: 3em;
+}
+.p-masthead {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 25px;
+	margin-top: .25em;
+}
+.background-image {
+	text-align: center;
+	margin-top: 1em;
+}
+.background-button {
+	color: white;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	padding: .75em .75em;
+	-webkit-border-radius: .25em;
+	-moz-border-radius: .25em;
+	border-radius: .25em;
+	color: #fef4e9;
+	margin-top: auto;
+	margin-bottom: auto;
+	border: solid 1px #da7c0c;
+	background: #f78d1d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+	background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
 }
