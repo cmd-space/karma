@@ -100,11 +100,15 @@ html {
 .background {
 	background-image: url('../images/first-background.jpg');
 	background-repeat: no-repeat;
+	background-size: cover;
 	min-width: 100%;
 	min-height: 100%;
 	height: auto;
 	width: 100%;
 	position: absolute;
+	/*background-position: 0 bottom;
+	background-size: cover;
+	height: 45.938rem;*/
 }
 .h1-masthead {
 	font-family: 'Roboto', sans-serif;
