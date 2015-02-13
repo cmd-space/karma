@@ -145,3 +145,7 @@ html {
 	background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
 }
+.background-button:hover {
+	cursor: pointer;
+	background-color: blue;
+}
