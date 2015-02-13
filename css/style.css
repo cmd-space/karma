@@ -67,6 +67,9 @@ a:hover {
 }
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 .content {
 	padding: 0px 15px;
@@ -166,4 +169,7 @@ html {
 	display: inline-block;
 	margin-left: 2.5em;
 	padding-top: 2em;
+}
+.anchor-caption {
+	margin-top: 2em;
 }
