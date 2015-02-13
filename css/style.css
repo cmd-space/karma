@@ -73,6 +73,7 @@ a:hover {
 }
 .content {
 	padding: 0px 15px;
+	text-align: center;
 	font-family: 'Roboto', sans-serif;
 }
 .top-navigation > .content {
@@ -172,4 +173,20 @@ html {
 }
 .anchor-caption {
 	margin-top: 2em;
+}
+.social {
+	margin-top: 4em;
+}
+.social hr {
+	width: 70%;
+}
+.icons li {
+	display: inline-block;
+	margin-left: 1.5em;
+	padding-top: 1em;
+}
+.icons i {
+	border-radius: 1em;
+	border: .5em;
+	border-color: lightblue;
 }
